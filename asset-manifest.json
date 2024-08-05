@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coin-toss/static/css/main.bb887869.css",
+    "main.js": "/coin-toss/static/js/main.6165bb87.js",
+    "static/js/453.eb6641d9.chunk.js": "/coin-toss/static/js/453.eb6641d9.chunk.js",
+    "index.html": "/coin-toss/index.html",
+    "main.bb887869.css.map": "/coin-toss/static/css/main.bb887869.css.map",
+    "main.6165bb87.js.map": "/coin-toss/static/js/main.6165bb87.js.map",
+    "453.eb6641d9.chunk.js.map": "/coin-toss/static/js/453.eb6641d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb887869.css",
+    "static/js/main.6165bb87.js"
+  ]
+}
