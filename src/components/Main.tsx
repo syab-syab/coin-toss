@@ -6,7 +6,16 @@ import CoinMotion from './CoinMotion';
 
 // 適当だから後で直す
 const Wrapper = styled.main`
-  padding: 0 3rem;
+  padding: 3rem 0;
+`
+
+const Button = styled.button`
+  margin-top: 3rem;
+  color: white;
+  background: black;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  font-size: 3rem;
 `
 
 const Main = () => {
@@ -32,8 +41,6 @@ const Main = () => {
   const CoinStatus = ["", "表", "裏"]
   return (
     <Wrapper>
-      <h1>コイントス</h1>
-      <h1>デザインはスマホ画面で進める</h1>
       {
         !motion && <Coin value={CoinStatus[ran]} />
       }
@@ -41,7 +48,7 @@ const Main = () => {
         motion && <CoinMotion />
       }
       <p>
-        <button onClick={createRandom}>コイントス</button>
+        <Button onClick={createRandom}>コイントス</Button>
       </p>
     </Wrapper>
   )

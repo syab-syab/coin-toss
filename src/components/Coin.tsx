@@ -4,14 +4,13 @@ import styled from 'styled-components'
 const CoinOutline = styled.div`
   display: inline-block;
   border-radius: 100%;
-  height: 100px;
-  width: 100px;
-  background: #ffd400;
+  height: 20rem;
+  width: 20rem;
+  background-image: linear-gradient(90deg, rgba(233, 233, 233, 1) 50%, rgba(172, 172, 172, 1));
   border: thick double black;
   text-align: center;
-  font-size: 50px;
-  line-height: 100px;
-  font-weight: bold;
+  font-size: 10rem;
+  line-height: 20rem;
 `
 
 
