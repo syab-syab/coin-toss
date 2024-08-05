@@ -48,7 +48,9 @@ const Main = () => {
         motion && <CoinMotion />
       }
       <p>
-        <Button onClick={createRandom}>コイントス</Button>
+        {
+          !motion && <Button onClick={createRandom}>コイントス</Button>
+        }
       </p>
     </Wrapper>
   )
